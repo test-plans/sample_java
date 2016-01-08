@@ -11,3 +11,4 @@ after_success:
    - mvn clean cobertura:cobertura
    - mvn test
 
+build_image: drydock/u12jav:tip
